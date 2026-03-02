@@ -1,0 +1,49 @@
+/* ================= CART ================= */
+
+.welcome table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #fafafa;
+}
+
+.welcome th {
+  background: #f0e6e0;
+  color: #4b2e2a;
+  padding: 12px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.welcome td {
+  padding: 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.welcome tr:last-child td {
+  background: #f8f4f1;
+  font-weight: bold;
+}
+
+/* Nút thanh toán */
+.welcome a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #4b2e2a;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.welcome a:hover {
+  background: #6d4c41;
+}
+
+/* Giỏ trống */
+.welcome p {
+  font-size: 15px;
+  color: #555;
+}
